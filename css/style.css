@@ -1,0 +1,103 @@
+html, body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family: 'Pacifico', cursive;
+}
+
+#clicker{
+  background-color: #AADE34;
+  border: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 255px;
+  transition: width 0.5s, height 0.5s, margin-top 0.5s, box-shadow 0.5s, background-color 0.5s;
+  background-image: url(".././img/tennis-ball.png");
+  background-size: 100%;
+}
+
+#clicker:hover{
+  width: 220px;
+  height: 220px;
+  margin-top: 150px;
+}
+
+.button{
+  outline: none;
+  transition: box-shadow 0.5s, background-color 0.5s;
+  font-family: 'Pacifico', cursive;
+  color: orange;
+}
+
+#clicker:active{
+  background-color: #D7CCC8;
+}
+
+.balls-counter{
+  font-family: 'Pacifico', cursive;
+  margin-left: 1200px;
+  color: white;
+  font-size: 20px;
+  width: 55px;
+}
+
+.balls-counter:hover{
+  color: red;
+}
+
+#clicks{
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+#collect-two{
+  margin-top: 20px;
+  left: 0;
+  color: lightgreen;
+}
+
+#collect, #collect-two{
+  position: absolute;
+  background-color: red;
+  width: 320px;
+  height: 50px;
+  border: none;
+  /* bottom: 0; */
+  border-radius: 2px;
+  margin-right: 20px;
+  right: 0;
+  font-size: 24px;
+}
+
+#collect{
+  margin-top: -40px;
+  color: lightgreen;
+  left: 0;
+}
+
+#collect:hover{
+  color: black;
+}
+
+#collect-two:hover{
+  color: black;
+}
+
+#collect:disabled, #collect-two:disabled{
+  background-color: #53665f;
+}
+
+#collect:hover{
+  background-color: white;
+}
+
+#collect-two:hover{
+  background-color: white;
+}
