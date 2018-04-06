@@ -19,9 +19,9 @@ $(document).ready(function(){
       balls       : document.getElementById("balls"),
 }
 
-updateBalls();
-updateCollect();
-updateCollectTwo();
+  updateBalls();
+  updateCollect();
+  updateCollectTwo();
 
 element.clicker.onclick = function() { addBalls(); updateBalls(); };
 
